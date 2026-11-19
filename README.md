@@ -1,5 +1,14 @@
 # McGill myCourses MCP Server
 
+> [!WARNING]
+> **This project is no longer maintained.** McGill support now ships in [**brightspace-mcp-server**](https://github.com/RohanMuppa/brightspace-mcp-server), which ported my McGill sign-in flow ([PR #120](https://github.com/RohanMuppa/brightspace-mcp-server/pull/120)) and is actively maintained, with many more tools (content, grades, announcements, file downloads…). Use that instead:
+>
+> ```bash
+> npx -y brightspace-mcp-server@latest setup --mcgill
+> ```
+>
+> Verified working end-to-end on a live McGill account (v5.2.16, November 2026). This repo stays up for reference only.
+
 A Model Context Protocol (MCP) server that gives Claude Desktop access to your **McGill University myCourses** (Brightspace) account — ask Claude about your courses and upcoming deadlines in plain language.
 
 > **Unofficial project.** Not affiliated with McGill University or D2L Corporation. This is a personal-use scraper/integration built by a student, for students — use it to read your own data, and be mindful of McGill's terms of service.
